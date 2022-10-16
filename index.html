@@ -1,72 +1,69 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Bitanu | Home</title>
+
+
+    <!-- Bootstrap links -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <link rel="icon" href="favicon.ico?V=2">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td align="left"><img src="Images\profile picture.png" alt="Bitanu profile picture" height="200" width="200"></td>
-            <td><h1>Bitanu Biswas</h1><em><p>ETL Tester at <a href="https://www.infosys.com/">Infosys</a> Hyderabad</p></em></td>
-        </tr>
-    </table>
-    <hr size="2">
-    <h3>Work Experience</h3>
-    <table cellspacing="8">
-        <thead align="center">
-            <tr><td><strong>Year</strong></td><td><strong>Work</strong></td></tr>
-        </thead>
-        <tbody>
-            <tr><td><em>2021 - Present</em></td><td><em>ETL Tester in Infosys</em></td></tr>
-            <tr><td><em>2018 - 2021</em></td><td><em>BSC in Computer Science</em></td></tr>
-        </tbody>
-    </table>
-    <hr size="2">
-    <h3>Projects</h3>
-    <table cellspacing="8">
-        <thead align="center">
-            <tr><td><strong>Year</strong></td><td><strong>Projects</strong></td></tr>
-        </thead>
-        <tbody>
-            <tr><td><em>2022</em></td><td><em><a href="https://bitanucs.github.io/cv/">Poftfolio Website</a></em></td></tr>
-            <tr><td><em>01/2021 - 08/2021</em></td><td><em>Vehicle detection ang storing logs of different <br> types of vehicle with respected timestamp</em></td></tr>
-        </tbody>
-    </table>
-    <hr size="2">
-    <h3>My Skill</h3>
-    <table>
-        <tbody>
-            <tr><td>
-                    <table cellspacing="8">
-                        <tbody>
-                            <tr><td><em>SQL</em></td><td>⭐⭐⭐⭐</td></tr>
-                            <tr><td><em>HTML</em></td><td>⭐⭐⭐⭐⭐</td></tr>
-                            <tr><td><em>CSS</em></td><td>⭐⭐⭐⭐⭐</td></tr>
-                        </tbody>
-                    </table>
-                </td>
-                <td>
-                    <table cellspacing="8">
-                        <tbody>
-                            <tr><td><em>React</em></td><td>⭐⭐⭐⭐⭐</td></tr>
-                            <tr><td><em>Python</em></td><td>⭐⭐⭐⭐⭐</td></tr>
-                            <tr><td><em>JIRA</em></td><td>⭐⭐</td></tr>
-                        </tbody>
-                    </table>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <hr size="2">
-    <h3>My Hobbies</h3>
-    <ol>
-        <li><em>Travelling</em></li>
-        <li><em>Cricket</em></li>
-        <li><em>Scrolling Linkedin</em>😉</li>
-    </ol>
-    <hr size="2">
-    <a href="contact-me.html">Contact Me</a>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="">
+        <h1>I'm Bitanu</h1>
+        <h2 class="top-container-h2">An ETL Test Analyst</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="">
+        <img class="mountain" src="images/mountain.png" alt="">
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img class="profile-picture" src="images/profile picture.png" alt="Bitanu-profile-picture">
+          <h2>Hey There!!</h2>
+          <p>Welcome to my personal web</p>
+        </div>
+        <hr>
+        <div class="skills">
+          <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="skill-one" src="images/computer.png" alt="Test-Analyst">
+            <h3 class="skill-name">ETL Test Analyst</h3>
+            <p class="skill-one-description">Responsible for validating the data sources, extraction of data, applying transformation logic, and loading the data in the target tables based on the requirements and use cases.</p>
+          </div>
+          <div class="skill-row">
+            <img class="skill-two" src="images/backend.png" alt="Web-Development">
+            <h3 class="skill-name">Web Development</h3>
+            <p class="skill-two-description">Responsible for the design and construction of websites.</p>
+          </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>Want to hire me as per my skills?</h3>
+          <p>You can download my CV from below and you can also contact me via email by clicking CONTACT ME.</p>
+            <div class="cv-download">
+                <h2>Download My CV</h2>
+                <a href="cv/BITANUCV.pdf" target="_blank"><img class="cv-download-pdf" src="images/download.png" alt="CV-download"></a>
+            </div>
+          <a class="btn btn-outline-light btn-lg" href="mailto:bitanubiswas@outlook.com">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/bitanubiswas/" target="_blank"><img class="social-media" src="images/linkedin.png" alt="LinkedIn"></a>
+        <a class="footer-link" href="https://twitter.com/BiswasBitanu" target="_blank"><img class="social-media" src="images/twitter.png" alt="Twitter"></a>
+        <!-- <a class="footer-link" href="https://www.appbrewery.co/">Website</a> -->
+        <a class="footer-link" href="https://github.com/BitanuCS" target="_blank"><img class="social-media" src="images/github.png" alt="Github"></a>
+        <p class="footer-paragraph">©Bitanu Biswas | 2022</p>
+      </div>
 </body>
 </html>
